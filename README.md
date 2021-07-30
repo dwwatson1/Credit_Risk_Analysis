@@ -25,20 +25,25 @@ In total, we trained six machine learning models to complete three tasks. The li
 
 2. Oversampling using SMOTE
 
-
+![image](https://github.com/dwwatson1/Credit_Risk_Analysis/blob/main/Images/2_SMOTE.PNG)
 
 3. Undersampling using ClusterCentroids
+
+![image](https://github.com/dwwatson1/Credit_Risk_Analysis/blob/main/Images/3_ClusterCentroids.PNG)
 
 ### SMOTEENN Algorithm to Predict Credit Risk
 1. Combinatorial using SMOTEEN
 
+![image](https://github.com/dwwatson1/Credit_Risk_Analysis/blob/main/Images/4_SMOTEEN.PNG)
 
 ### Ensemble Classifiers to Predict Credit Risk
 1. Balanced Random Forest Classifier using BalancedRandomForestClassifier
 
-
+![image](https://github.com/dwwatson1/Credit_Risk_Analysis/blob/main/Images/5_BalancedRandomForestClassifier.PNG)
 
 2. Easy Ensemble AdaBoost Classifier using EasyEnsembleClassifier
+
+![image](https://github.com/dwwatson1/Credit_Risk_Analysis/blob/main/Images/6_EasyEnsembleClassifier.PNG)
 
 ## Summary of the Results
 
