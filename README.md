@@ -21,7 +21,7 @@ In total, we trained six machine learning models to complete three tasks. The li
 ### Resampling Models to Predict Credit Risk
 1. Naive Random Oversampling using RandomOverSampler
 
-
+![image](https://github.com/dwwatson1/Credit_Risk_Analysis/blob/main/Images/1_RandomOverSampler.PNG)
 
 2. Oversampling using SMOTE
 
