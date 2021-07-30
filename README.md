@@ -4,7 +4,7 @@
 
 Determining an individual's credit risk can be challenging because of its inherently unbalanced classification problem. Good loans tend to outnumber risky loans. In this analysis I used different techniques to train and evaluate machine learning models with unbalanced classes. Using imbalanced-learn and scikit-learn libraries, I built and evaluated those models using resampling.
 
-This analysis was completed in three parts beginning with the following. Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Next, I used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Then, I compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once I completed these three parts, I evaluated the performance of these models in the conclusion and made my recommendation on whether they should be used to predict credit risk.
+This analysis was completed using six machine learning models beginning with the following. Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Next, I used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Then, I compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once I completed these three parts, I evaluated the performance of these models in the conclusion and made my recommendation on whether they should be used to predict credit risk.
 
 ### Analysis Resources
 * **Data Sources:** 
@@ -16,7 +16,29 @@ This analysis was completed in three parts beginning with the following. Using t
 
 ## Results of the Analysis
 
-Insert bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
+In total, we trained six machine learning models to complete three tasks. The list of the models used under each task is below.
+
+### Resampling Models to Predict Credit Risk
+1. Naive Random Oversampling using RandomOverSampler
+
+
+
+2. Oversampling using SMOTE
+
+
+
+3. Undersampling using ClusterCentroids
+
+### SMOTEENN Algorithm to Predict Credit Risk
+1. Combinatorial using SMOTEEN
+
+
+### Ensemble Classifiers to Predict Credit Risk
+1. Balanced Random Forest Classifier using BalancedRandomForestClassifier
+
+
+
+2. Easy Ensemble AdaBoost Classifier using EasyEnsembleClassifier
 
 ## Summary of the Results
 
